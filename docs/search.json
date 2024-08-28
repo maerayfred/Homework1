@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "Homework1.html",
+    "href": "Homework1.html",
+    "title": "Homework1",
+    "section": "",
+    "text": "##Questions and Answers\n##Code #Defining function y\n\ny&lt;-density(iris$Petal.Width)\n\n#Determining class/type/structure\n\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nCreating Plot of y"
+  }
+]
