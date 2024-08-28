@@ -5,7 +5,7 @@ editor: visual
 ---
 
 ##Questions and Answers
-
+I think being a data scientist is all about 
 
 
 ##Code
