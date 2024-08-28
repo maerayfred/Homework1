@@ -1,0 +1,35 @@
+---
+title: "Homework1"
+format: html
+editor: visual
+---
+
+##Questions and Answers
+
+
+
+##Code
+#Defining function y
+```{r}
+y<-density(iris$Petal.Width)
+```
+
+#Determining class/type/structure
+```{r}
+class(y)
+
+typeof(y)
+
+str(y)
+
+```
+
+
+Creating Plot of y
+
+```{r}
+#| echo: false
+plot(y)
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
