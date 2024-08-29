@@ -6,17 +6,30 @@ editor: visual
 
 ##Questions and Answers
 
+A data scientist manages and cleans data, performs analyses, and communicates results, often collaborating with content specialists. From my experience at a Contract Research Organization (CRO), I've observed that Statistical Programmers align with both data scientists and statisticians.
 
-I think being a data scientist is all about 
+Similarities:
 
+-Knowledge of programming languages
 
-##Code
-#Defining function y
+-Strong statistical background
+
+-Performing analyses
+
+-Producing clear results
+
+Differences:
+
+Statisticians may have a more theoretical focus and are often more involved in experimental design. I currently view myself as more of a data scientist than a statistician.
+
+##Code #Defining function y
+
 ```{r}
 y<-density(iris$Petal.Width)
 ```
 
 #Determining class/type/structure
+
 ```{r}
 class(y)
 
@@ -26,12 +39,9 @@ str(y)
 
 ```
 
-
 Creating Plot of y
 
 ```{r}
 #| echo: false
 plot(y)
 ```
-
-
