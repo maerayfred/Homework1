@@ -1,10 +1,10 @@
 ---
-title: "Homework1"
+title: "Data Scientist"
 format: html
 editor: visual
 ---
 
-##Questions and Answers
+What is a data scientist?
 
 A data scientist manages and cleans data, performs analyses, and communicates results, often collaborating with content specialists. From my experience at a Contract Research Organization (CRO), I've observed that Statistical Programmers align with both data scientists and statisticians.
 
@@ -22,7 +22,8 @@ Differences:
 
 Statisticians may have a more theoretical focus and are often more involved in experimental design. I currently view myself as more of a data scientist than a statistician.
 
-##Code #Defining function y
+##Code 
+#Defining function y
 
 ```{r}
 y<-density(iris$Petal.Width)
@@ -31,10 +32,11 @@ y<-density(iris$Petal.Width)
 #Determining class/type/structure
 
 ```{r}
+#Class
 class(y)
-
+#Type
 typeof(y)
-
+#Structure
 str(y)
 
 ```
