@@ -2,8 +2,22 @@
   {
     "objectID": "Homework1.html",
     "href": "Homework1.html",
-    "title": "Homework1",
+    "title": "Data Scientist",
     "section": "",
-    "text": "##Questions and Answers\nI think being a data scientist is all about\n##Code #Defining function y\n\ny&lt;-density(iris$Petal.Width)\n\n#Determining class/type/structure\n\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nCreating Plot of y"
+    "text": "A data scientist manages and cleans data, performs analyses, and communicates results, often collaborating with content specialists. From my experience at a Contract Research Organization (CRO), I’ve observed that Statistical Programmers align with both data scientists and statisticians.\nSimilarities:\n-Knowledge of programming languages\n-Strong statistical background\n-Performing analyses\n-Producing clear results\nDifferences:\nStatisticians may have a more theoretical focus and are often more involved in experimental design. I currently view myself as more of a data scientist than a statistician.\n\n\n\ny&lt;-density(iris$Petal.Width)\n\n\n\n\n\n#Class\nclass(y)\n\n[1] \"density\"\n\n#Type\ntypeof(y)\n\n[1] \"list\"\n\n#Structure\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\""
+  },
+  {
+    "objectID": "Homework1.html#code--defining-function-y",
+    "href": "Homework1.html#code--defining-function-y",
+    "title": "Data Scientist",
+    "section": "",
+    "text": "y&lt;-density(iris$Petal.Width)"
+  },
+  {
+    "objectID": "Homework1.html#determining-classtypestructure",
+    "href": "Homework1.html#determining-classtypestructure",
+    "title": "Data Scientist",
+    "section": "",
+    "text": "#Class\nclass(y)\n\n[1] \"density\"\n\n#Type\ntypeof(y)\n\n[1] \"list\"\n\n#Structure\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\""
   }
 ]
